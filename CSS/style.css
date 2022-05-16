@@ -1,4 +1,6 @@
-
+.body{
+  background-image: linear-gradient(#C6FFDD,#FBD786, #f7797d);
+}
 
 .logo{
     display: flex;
@@ -17,21 +19,21 @@
 .image-logo{
     height: 200px;
     padding-top: 30px;
-    padding-left: 10px;
 }
 .header{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 150px;
-    gap: 30%;
-    background-color: rgb(29, 22, 22)
+    gap: 22%;
+    background-color: rgb(29, 22, 22);
 }
+
 .ul-navigation{
     display: flex;
     flex-direction: row;
     padding-top: 90%;
-    gap: 30%;
+    gap: 70%;
 }
 .Main{
     font-weight: bold;
@@ -162,7 +164,7 @@
 }
 
 .footer{
-  background-color: black;
+  background-color: rgb(29, 22, 22);
   width: 100%;
   height: 200px;
   margin-top: 50px;
@@ -172,7 +174,7 @@
 .button{
   max-width: 200px;
   height: 50px;
-  margin-left: 50px;
+  margin-left: 78px;
   margin-top: 50px;
   outline: none;
   background-color: #080808;
@@ -186,20 +188,36 @@
 }
 
 .service-wraper{
-  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .service-blocks{
-  width: 450px;
+  width: 600px;
   height: 300px;
   background-color:rgb(110, 71, 71);
   margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
+.delivery-image{
+ height: 100%; 
+}
+.text-block{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-title{
+  color: rgb(240, 238, 226);
+  padding-bottom: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -98,3 +98,7 @@ setInterval(()=>{
 },6000);
 
 slider();
+
+// add new service
+
+let newservice = document.getElementById ("button"); 
